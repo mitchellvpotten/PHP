@@ -1,0 +1,56 @@
+.all{
+	margin: auto;
+	margin-top: 15vw;
+	width:500px;
+	text-align: center;
+
+}
+
+h1{
+	font-family: junegullregular;
+	font-size: 48px;
+	color: white;
+
+}
+
+body{
+	background: no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+@font-face {
+    font-family: 'junegullregular';
+    src: url('font/junegull-webfont.eot');
+    src: url('font/junegull-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/junegull-webfont.woff2') format('woff2'),
+         url('font/junegull-webfont.woff') format('woff'),
+         url('font/junegull-webfont.ttf') format('truetype'),
+         url('font/junegull-webfont.svg#junegullregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#pac{
+  z-index: 1;
+}
+
+.afbeelding{
+  height: 100px;
+  width: 100px;
+
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  clear:both;
+  color: white;
+}
+
